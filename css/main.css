@@ -812,7 +812,7 @@ address a {
 
 .gb-cta-1 {
 	background-color: #e94b4c;
-	background-image: url(../images/bg/cta-1-bg.jpg);
+	background-image: url(../images/bg/cta-2-bg.jpg);
 }
 
 .cta-info {
@@ -1078,7 +1078,7 @@ address a {
 /* Gb Price */
 
 .gb-price {
-	color: #8f8f8f;
+        color: #5f5f5f;
 	line-height: 38px;
 	padding: 35px 50px 60px;
 	background-color: #f7f7f7;
