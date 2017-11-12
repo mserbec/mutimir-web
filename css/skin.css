@@ -84,4 +84,8 @@ blockquote {
 	border-left-color: #e94b4c;
 }
 
+.sign-up:hover {
+	color: black !important;
+}
+
 
