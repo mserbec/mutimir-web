@@ -1042,7 +1042,7 @@ address a {
 .schedule-info h2 {
 	font-size: 20px;
 	margin: 15px 0;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 	color: #29333f;
 }
 
@@ -1982,7 +1982,7 @@ img.mfp-img {
 .gb-footer {
 	padding: 35px 0;
 	border-top: 1px solid #ee4d4e;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 	background-color: #ee4d4e;
 }
 .gb-footer a {
