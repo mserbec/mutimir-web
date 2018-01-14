@@ -977,7 +977,7 @@ address a {
 
 .schedule>ul>li:after {
 	position: absolute;
-	content: "\f0c9";
+	content: "\f067";
 	top: 45px;
 	right: 45px;
 	font-size: 20px;
