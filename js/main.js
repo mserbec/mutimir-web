@@ -79,8 +79,16 @@ jQuery(function ($) {
     // -------------------------------------------------------------
 
     $('.expandable').on('click', function() {
-       $('.expandable').not(this).removeClass('active');
+        $('.expandable').not(this).removeClass('active');
         $(this).toggleClass('active');
+    });
+
+    $('.expand-all').on('click', function() {
+        if ($('.expandable').filter('.active').length > 0) {
+            $('.expandable').removeClass('active');
+        } else {
+            $('.expandable').addClass('active');
+        }
     });
 
 

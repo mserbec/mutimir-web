@@ -2013,7 +2013,13 @@ a, input, .btn, .btn:before,
 	transition: all 500ms;
 }
 
-
+.expand-all {
+    cursor: pointer;
+    user-select: none;
+}
+.expand-all:hover {
+    color: #fff;
+}
 
 /*========================
 =======style-chooser======
