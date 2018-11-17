@@ -37,7 +37,7 @@ jQuery(function ($) {
     (function () {
 
         $(".countdown").countdown({
-            date: "27 dec 2017 10:00:00",
+            date: "27 dec 2018 10:00:00",
             format: "on"
         });
 
