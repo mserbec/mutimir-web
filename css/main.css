@@ -69,7 +69,7 @@ a {
 color: #e23c3b;
 	} 
 a:hover {
-	color: #e94b4c;
+	color: #01779f;
 }
 
 a:active,
@@ -174,13 +174,13 @@ button {
 }
 
 .button-red:hover {
-	color: #e94b4c;
+	color: #01779f;
 	background-color: #fff;
-	border-color: #e94b4c;
+	border-color: #01779f;
 }
 
 .btn.button-white {
-	color: #e94b4c;
+	color: #01779f;
 	margin-right: 10px;
 	background-color: #fff;
 	border-color: #fff;	
@@ -188,8 +188,8 @@ button {
 
 .btn.button-white:before,
 .btn.button-white:after {
-	border-top-color: #e94b4c;
-	border-bottom-color: #e94b4c;
+	border-top-color: #01779f;
+	border-bottom-color: #01779f;
 }
 
 .btn.button-white:hover {
@@ -362,10 +362,7 @@ textarea.form-control {
 .title-section.white-title .before-bottom:after,
 .title-section.white-title h1 span:before,
 .title-section.white-title h1 span:after,
-.title-section.white-title h1:before,
-.title-section.white-title h1:after {
-	background-color: #fff;
-}
+
 
 .gb-bg {
 	background-size: cover;	
@@ -642,11 +639,11 @@ textarea.form-control {
 	display: table;
 	position: relative;
 	z-index: 1;
-	background-image: url(../images/bg/home-bg.jpg);
+	background-image: url(../images/bg/2018-skupna.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-color: rgba(0, 0, 0, 0.45);
+	background-color: rgba(0, 0, 0, 0.35);
 }
 
 .gb-banner:before {
@@ -656,7 +653,7 @@ textarea.form-control {
 	left:0;
 	width: 100%;
 	height:100%;
-	background-color: rgba(0, 0, 0, 0.45);
+	background-color: rgba(0, 0, 0, 0.65);
 	z-index: -1;
 }
 
@@ -811,8 +808,12 @@ address a {
 /* Gb Cta 1 */
 
 .gb-cta-1 {
-	background-color: #e94b4c;
-	background-image: url(../images/bg/cta-2-bg.jpg);
+	background-color: white;
+	color: black;
+}
+
+.gb-cta-1 h1 {
+	color: #01779f;
 }
 
 .cta-info {
@@ -954,9 +955,8 @@ address a {
 }
 
 .gb-schedules.width-bg {
-	background-color: #e94b4c;
+	background-color: #00789d;
 	background-attachment: fixed;
-	background-image: url(../images/bg/Schedule-bg.jpg);
 }
 
 .schedule {
@@ -968,25 +968,13 @@ address a {
 	padding: 20px 40px 35px;
 	cursor: pointer;
 	position: relative;
-	border-bottom: 1px solid #ed4d54;
+	border-bottom: 1px solid #055874;
 }
 
 .schedule>ul>li:nth-child(even) {
 	background-color: #f7f7f7;
 }
 
-.schedule>ul>li:after {
-	position: absolute;
-	content: "\f067";
-	top: 45px;
-	right: 45px;
-	font-size: 20px;
-	font-family: "fontawesome";
-}
-
-.schedule>ul>li.active:after {
-	content: "\f068";
-}
 
 .author-image {
 	width: 100px;
@@ -994,6 +982,7 @@ address a {
 	border-radius: 100%;
 	border: 1px solid #ddd;
 	overflow: hidden;
+
 }
 
 .author-image,
@@ -1007,9 +996,9 @@ address a {
 }
 
 .author-image img {
-	width: 100%;
-	height: 100%;
-	padding: 5px;
+	width: 100px;
+	min-height: 100px;
+	padding: 0px;
 }
 
 .author-title {
@@ -1154,7 +1143,7 @@ address a {
 /* Gb Brand */
 
 .gb-brand {
-	background-color: #e94b4c;
+	background-color: #01779f;
 	background-image: url(../images/bg/brand-bg.jpg);
 }
 
@@ -1276,7 +1265,7 @@ address a {
 /* Gb Cta 2 */
 
 .gb-cta-2 {
-	background-color: #e94b4c;
+	background-color: #01779f;
 	background-image: url(../images/bg/cta-2-bg.jpg);
 }
 
@@ -1342,7 +1331,7 @@ address a {
 }
 
 .upcoming-events.width-bg {
-	background-color: #e94b4c;
+	background-color: #01779f;
 	background-image: url(../images/bg/event-bg.jpg);
 }
 
@@ -1844,7 +1833,7 @@ blockquote {
 .plyr__play-large, 
 .plyr--video .plyr__controls button.tab-focus:focus, 
 .plyr--video .plyr__controls button:hover {
-    background: #e94b4c;
+    background: #01779f;
     color: #fff;
 }
 
@@ -1853,34 +1842,34 @@ blockquote {
 }
 
 .plyr input[type=range]::-ms-fill-lower {
-	background: #e94b4c;
+	background: #01779f;
 }
 
 .plyr input[type=range]:active::-webkit-slider-thumb {
-    background: #e94b4c;
+    background: #01779f;
     border-color: #fff;
     transform: scale(1.25)
 }
 
 .plyr input[type=range]:active::-moz-range-thumb {
-    background: #e94b4c;
+    background: #01779f;
     border-color: #fff;
     transform: scale(1.25)
 }
 
 .plyr input[type=range]:active::-ms-thumb {
-    background: #e94b4c;
+    background: #01779f;
     border-color: #fff;
     transform: scale(1.25)
 }
 
 .plyr__play-large:hover {
-	border-color: #e94b4c;
+	border-color: #01779f;
 }
 
 .plyr__progress--played, 
 .plyr__volume--display {
-	color:#e94b4c;
+	color:#01779f;
 }
 
 /*video-plyr*/
@@ -1943,7 +1932,7 @@ img.mfp-img {
 .pagination>.active>span:focus, 
 .pagination>.active>span:hover {
 	color: #fff;
-	border-color: #e94b4c;
+	border-color: #01779f;
 }
 
 .pagination>li:first-child>a, 
@@ -2115,4 +2104,10 @@ a, input, .btn, .btn:before,
 
 .style-chooser-inner ul li.preset6 a {
 	background-color: #ff00bf;
+}
+
+
+.mutimir-logo {
+	width: 120px;
+	height: 160px;
 }

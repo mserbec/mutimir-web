@@ -37,7 +37,7 @@
 .pagination>.active>span:hover,
 .tag-cloud a:hover,
 .gb-dropdown-menu {
-	background-color: #e94b4c;
+	background-color: #01779f;
 }
 
 a, a:hover, 
@@ -57,14 +57,14 @@ a, a:hover,
 .cta-info .btn:hover, .cta-info .btn.button-white, .gb-post .read-more a,
 .gb-post .share a, .entry-content a:hover, .pagination>li>a, 
 .pagination>li>span   {
-	color: #e94b4c;
+	color: #01779f;
 }
 
 .gb-time , .event, .btn.btn-default, .btn.button-red,
 .pagination>li>a, .pagination>li>span,
 .tag-cloud a:hover, .add-comments .form-control:focus,
 .form-control:focus {
-	border: 1px solid #e94b4c;
+	border: 1px solid #01779f;
 }
 
 .speaker-social,
@@ -76,16 +76,22 @@ a, a:hover,
 .btn:after,
 .cta-info .btn.button-white:before,
 .cta-info .btn.button-white:after {
-    border-top: 27px solid #e94b4c;
-    border-bottom: 27px solid #e94b4c;	
+    border-top: 27px solid #01779f;
+    border-bottom: 27px solid #01779f;	
 }
 
 blockquote {
-	border-left-color: #e94b4c;
+	border-left-color: #01779f;
 }
 
 .sign-up:hover {
 	color: black !important;
 }
 
+.tabs-years {
+	width: 50%;
+}
 
+.open-descriptions {
+	margin-bottom: 15px;
+}
