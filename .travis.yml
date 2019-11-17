@@ -3,6 +3,6 @@ deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
-  bucket: udruga-penkala.hr
+  bucket: arn:aws:s3:::udruga-penkala.hr
   skip_cleanup: true
   region: eu-west-1
