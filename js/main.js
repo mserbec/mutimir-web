@@ -34,45 +34,45 @@ jQuery(function ($) {
     //  Countdown
     // -------------------------------------------------------------
 
-    (function () {
+    // (function () {
 
-        $(".countdown").countdown({
-            date: "27 dec 2018 10:00:00",
-            format: "on"
-        });
+    //     $(".countdown").countdown({
+    //         date: "27 dec 2018 10:00:00",
+    //         format: "on"
+    //     });
 
-    }());  
+    // }());  
 
     // -------------------------------------------------------------
     //  Slick Slider
     // -------------------------------------------------------------  
 
-    (function() {
+    // (function() {
       
-       $(".brand-slider").slick({
-            dots: true,
-            infinite: true,
-            slidesToShow: 5,
-            autoplay:true,
-            autoplaySpeed:10000,
-            slidesToScroll: 2,
-            responsive: [
-                {
-                    breakpoint: 1025,
-                    settings: {
-                        slidesToShow: 4,
-                    }
-                },
-                {
-                    breakpoint: 481,
-                    settings: {
-                        slidesToShow: 2,
-                    }
-                }
-            ]        
-        });            
+    //    $(".brand-slider").slick({
+    //         dots: true,
+    //         infinite: true,
+    //         slidesToShow: 5,
+    //         autoplay:true,
+    //         autoplaySpeed:10000,
+    //         slidesToScroll: 2,
+    //         responsive: [
+    //             {
+    //                 breakpoint: 1025,
+    //                 settings: {
+    //                     slidesToShow: 4,
+    //                 }
+    //             },
+    //             {
+    //                 breakpoint: 481,
+    //                 settings: {
+    //                     slidesToShow: 2,
+    //                 }
+    //             }
+    //         ]        
+    //     });            
 
-    }());
+    // }());
 
     // -------------------------------------------------------------
     //  select-category Change
@@ -96,20 +96,20 @@ jQuery(function ($) {
     //  MagnificPopup
     // -------------------------------------------------------------
 
-    (function() {
+    // (function() {
         
-        $('.video-link').magnificPopup({type:'iframe'});
+    //     $('.video-link').magnificPopup({type:'iframe'});
 
-    }()); 
+    // }()); 
 
-    (function () {
-        $('.image-link').magnificPopup({
-          type: 'image',
-          gallery:{
-            enabled:true
-          }
-        });
-    }()); 
+    // (function () {
+    //     $('.image-link').magnificPopup({
+    //       type: 'image',
+    //       gallery:{
+    //         enabled:true
+    //       }
+    //     });
+    // }()); 
 
 
     // -------------------------------------------------------------
@@ -134,82 +134,82 @@ jQuery(function ($) {
     // Gmap
     /*==============================================================*/
 
-    (function(){
+    // (function(){
 
-        var map;
+    //     var map;
 
-        map = new GMaps({
-            el: '#gmap',
-            lat: 45.9763351,
-            lng: 15.9360098,
-            scrollwheel:false,
-            zoom: 10,
-            zoomControl : false,
-            panControl : false,
-            streetViewControl : true,
-            mapTypeControl: false,
-            overviewMapControl: false,
-            clickable: false
-        });
+    //     map = new GMaps({
+    //         el: '#gmap',
+    //         lat: 45.9763351,
+    //         lng: 15.9360098,
+    //         scrollwheel:false,
+    //         zoom: 10,
+    //         zoomControl : false,
+    //         panControl : false,
+    //         streetViewControl : true,
+    //         mapTypeControl: false,
+    //         overviewMapControl: false,
+    //         clickable: false
+    //     });
 
-        var image = 'images/others/map-marker-big.png';
-        map.addMarker({
-            lat: 45.9763351,
-            lng: 15.9360098,
-            icon: image,
-            animation: google.maps.Animation.DROP,
-            verticalAlign: 'bottom',
-            horizontalAlign: 'left',
-            backgroundColor: '#efece0',
-        });
+    //     var image = 'images/others/map-marker-big.png';
+    //     map.addMarker({
+    //         lat: 45.9763351,
+    //         lng: 15.9360098,
+    //         icon: image,
+    //         animation: google.maps.Animation.DROP,
+    //         verticalAlign: 'bottom',
+    //         horizontalAlign: 'left',
+    //         backgroundColor: '#efece0',
+    //     });
 
 
-        var styles = [ 
+    //     var styles = [ 
 
-            {
-                "featureType": "road",
-                "stylers": [
-                    { "color": "#efc182" }
-                ]
-            },{
-                "featureType": "water",
-                "stylers": [
-                    { "color": "#cbe6a3" }
-                ]
-          },{
-              "featureType": "landscape",
-              "stylers": [
-              { "color": "#f3f1ed" }
-              ]
-            },{
-                "elementType": "labels.text.fill",
-                "stylers": [
-                    { "color": "#a8a8a8" }
-                ]
-            },{
-                "featureType": "poi",
-                "stylers": [
-                 { "color": "#e2f0cd" }
-                ]
-            },{
-                "elementType": "labels.text",
-                "stylers": [
-                    { "saturation": 1 },
-                    { "weight": 0.1 },
-                    { "color": "#a8a8a8" }
-                ]
-            }
+    //         {
+    //             "featureType": "road",
+    //             "stylers": [
+    //                 { "color": "#efc182" }
+    //             ]
+    //         },{
+    //             "featureType": "water",
+    //             "stylers": [
+    //                 { "color": "#cbe6a3" }
+    //             ]
+    //       },{
+    //           "featureType": "landscape",
+    //           "stylers": [
+    //           { "color": "#f3f1ed" }
+    //           ]
+    //         },{
+    //             "elementType": "labels.text.fill",
+    //             "stylers": [
+    //                 { "color": "#a8a8a8" }
+    //             ]
+    //         },{
+    //             "featureType": "poi",
+    //             "stylers": [
+    //              { "color": "#e2f0cd" }
+    //             ]
+    //         },{
+    //             "elementType": "labels.text",
+    //             "stylers": [
+    //                 { "saturation": 1 },
+    //                 { "weight": 0.1 },
+    //                 { "color": "#a8a8a8" }
+    //             ]
+    //         }
 
-        ];
+    //     ];
 
-         map.addStyle({
-            styledMapName:"Styled Map",
-            styles: styles,
-            mapTypeId: "map_style"  
-        });
+    //      map.addStyle({
+    //         styledMapName:"Styled Map",
+    //         styles: styles,
+    //         mapTypeId: "map_style"  
+    //     });
 
-        map.setStyle("map_style");
-    }()); 
+    //     map.setStyle("map_style");
+    // }()); 
 
 
   
